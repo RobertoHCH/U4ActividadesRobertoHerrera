@@ -1,0 +1,161 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Models\**" />
+    <Content Remove="Models\**" />
+    <EmbeddedResource Remove="Models\**" />
+    <None Remove="Models\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="Models\Alumno.cs" />
+    <Compile Include="Models\Director.cs" />
+    <Compile Include="Models\Docente.cs" />
+    <Compile Include="Models\rolesrobertoContext.cs" />
+    <Compile Include="Models\ViewModels\AgregarAlumVM.cs" />
+    <Compile Include="obj\Debug\netcoreapp3.1\.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" />
+    <Compile Include="obj\Debug\netcoreapp3.1\U4Actividad2Roberto.AssemblyInfo.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="bin\Debug\netcoreapp3.1\appsettings.Development.json" />
+    <Content Include="bin\Debug\netcoreapp3.1\appsettings.json" />
+    <Content Include="bin\Debug\netcoreapp3.1\U4Actividad2Roberto.deps.json" />
+    <Content Include="bin\Debug\netcoreapp3.1\U4Actividad2Roberto.runtimeconfig.dev.json" />
+    <Content Include="bin\Debug\netcoreapp3.1\U4Actividad2Roberto.runtimeconfig.json" />
+    <Content Include="obj\Debug\netcoreapp3.1\staticwebassets\U4Actividad2Roberto.StaticWebAssets.xml" />
+    <Content Include="obj\Debug\netcoreapp3.1\U4Actividad2Roberto.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\project.assets.json" />
+    <Content Include="obj\U4Actividad2Roberto.csproj.nuget.dgspec.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\MySqlConnector.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Pomelo.EntityFrameworkCore.MySql.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Pomelo.JsonObject.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\System.Composition.Convention.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\U4Actividad2Roberto.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\U4Actividad2Roberto.exe" />
+    <None Include="bin\Debug\netcoreapp3.1\U4Actividad2Roberto.pdb" />
+    <None Include="bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <None Include="obj\Debug\netcoreapp3.1\apphost.exe" />
+    <None Include="obj\Debug\netcoreapp3.1\staticwebassets\U4Actividad2Roberto.StaticWebAssets.Manifest.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\U4Actividad2Roberto.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\U4Actividad2Roberto.assets.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\U4Actividad2Roberto.csproj.CopyComplete" />
+    <None Include="obj\Debug\netcoreapp3.1\U4Actividad2Roberto.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\U4Actividad2Roberto.csprojAssemblyReference.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\U4Actividad2Roberto.dll" />
+    <None Include="obj\Debug\netcoreapp3.1\U4Actividad2Roberto.genruntimeconfig.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\U4Actividad2Roberto.MvcApplicationPartsAssemblyInfo.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\U4Actividad2Roberto.pdb" />
+    <None Include="obj\Debug\netcoreapp3.1\U4Actividad2Roberto.RazorTargetAssemblyInfo.cache" />
+    <None Include="obj\project.nuget.cache" />
+    <None Include="obj\U4Actividad2Roberto.csproj.nuget.g.props" />
+    <None Include="obj\U4Actividad2Roberto.csproj.nuget.g.targets" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.10">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.4" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="3.2.4" />
+  </ItemGroup>
+
+</Project>
