@@ -1,0 +1,114 @@
+html {
+    background-color: white;
+    font-family: 'Yu Gothic UI';
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+input[type=text], input[type=email], input[type=password], input[type=number] {
+    background-color: white;
+    color: blue;
+    font-size: 20px;
+    font-family: 'Yu Gothic';
+    padding: 3px;
+    margin: 5px;
+    width: 300px;
+}
+footer {
+    background-color: white;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    color: mediumblue;
+}
+#footer div, #footer p, #footer table {
+    color: mediumblue;
+    font-size: 12px;
+}
+#footercontent2 {
+    margin-left: 10px;
+    margin-right: 20px;
+    position: relative;
+    height: 70px;
+}
+.basketFlyout .title, .basketFlyout .totals, .basketFlyout li a, .clear, .form li, .lineView li, .wrappingData li {
+    display: block;
+}
+body {
+    width: 1000px;
+}
+h1, h2 {
+    color: mediumblue;
+    font-weight: bolder;
+}
+header {
+    background-color: white;
+}
+    header section {
+        text-align: right;
+        float: right;
+        margin-right: 30px;
+    }
+#logo {
+    width: 500px;
+    margin-left: 30px;
+}
+a {
+    color: mediumblue;
+    font-size: 20px;
+    margin: 5px;
+}
+main {
+    
+    text-align: center;
+    background-color: white;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+table {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.btn {
+    color: #0099CC;
+    background: black;
+    border: 2px solid mediumblue;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.btn1 {
+    background-color: mediumblue;
+    color: black;
+    border: 2px solid mediumblue;
+}
+
+form input[type=submit]:hover {
+    background-color: dodgerblue;
+    color: white;
+}
+p, label {
+    font-size: 20px;
+    margin: 5px;
+
+}
+img{
+    align-content:baseline;
+}
+
+
+

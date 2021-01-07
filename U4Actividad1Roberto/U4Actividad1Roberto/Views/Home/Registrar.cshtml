@@ -1,0 +1,30 @@
+﻿@model U4Actividad1Roberto.Models.Usuario
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{ Layout = "_Layout"; }
+
+
+    <main>
+
+        <img id="logo"
+             src=~/Images/Registrar.jpg />
+        <form method="post" action="~/Home/Registrar">
+
+            <input type="text" asp-for="Nombre" placeholder="Nombre:" required />
+            <br />
+            <input type="email" asp-for="Correo" placeholder="E-mail:" required />
+            <br />
+            <input type="password" asp-for="Contrasena" name="contrasena" placeholder="Contraseña:" required />
+            <br />
+            <input type="password" asp-for="Contrasena" name="contrasena2" placeholder="Confirmar contraseña:" required />
+            @Html.ValidationSummary()
+            <input class="btn" type="submit" value="Crear Cuenta" onclick="registrarUsuario()" />
+            <br />
+
+        </form>
+
+        <p>
+            ¿Ya tienes cuenta?
+            <a href="~/Home/IniciarSesion">Inicia sesión</a>
+        </p>
+    </main>
+

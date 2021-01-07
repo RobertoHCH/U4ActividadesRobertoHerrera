@@ -1,0 +1,22 @@
+﻿@model U4Actividad1Roberto.Models.Usuario
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{ Layout = "_Layout"; }
+
+<main>
+    <a href="~/Home/IniciarSesion">
+        Regresar al inicio
+    </a>
+    <h1>Recuperar contraseña</h1>
+    <p>
+        Para recuperar su contraseña, Es necesario
+        <br />
+        El Correo que registró con nosotros.
+        <br />
+        Le envíaremos un correo donde se le explicará como recuperar su contraseña.
+    </p>
+    <form method="post" action="~/Home/RecuperarContrasena">
+        <input type="email" name="correo" placeholder="Correo" required />
+        <br />
+        <input class="btn" type="submit" value="Enviar correo" />
+    </form>
+</main>

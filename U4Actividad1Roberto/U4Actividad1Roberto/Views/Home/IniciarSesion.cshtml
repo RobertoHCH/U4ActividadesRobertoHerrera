@@ -1,0 +1,20 @@
+﻿@model U4Actividad1Roberto.Models.Usuario
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{ Layout = "_Layout"; }
+<main>
+    <h1>Inicia Sesión</h1><br>
+    <a href="~/Home/Registrar">Regístrate</a>
+    <form method="post" action="~/Home/IniciarSesion">
+        <input type="email" asp-for="Correo" placeholder="Correo" required />
+        <br />
+        <input type="password" asp-for="Contrasena" placeholder="Contraseña" required />
+        <br />
+        <input type="checkbox" id="mantener" name="mantener" value="true" />
+        <label for="mantener">Mantener la sesión iniciada</label>
+        <br />
+        <input class="btn" type="submit" value="Acceder" />
+        <br />
+    </form>
+    @Html.ValidationSummary()
+    <a href="~/Home/RecuperarContrasena">¿Olvidaste tu contraseña?</a>
+</main>
