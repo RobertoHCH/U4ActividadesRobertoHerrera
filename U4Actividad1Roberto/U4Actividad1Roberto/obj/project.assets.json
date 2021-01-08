@@ -6839,11 +6839,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "A:\\7mo Semestre\\Programación Web\\U4Actividad1Roberto\\U4Actividad1Roberto\\U4Actividad1Roberto.csproj",
+      "projectUniqueName": "A:\\7mo Semestre\\Programación Web\\U4ActividadesRobertoHerrera\\U4Actividad1Roberto\\U4Actividad1Roberto\\U4Actividad1Roberto.csproj",
       "projectName": "U4Actividad1Roberto",
-      "projectPath": "A:\\7mo Semestre\\Programación Web\\U4Actividad1Roberto\\U4Actividad1Roberto\\U4Actividad1Roberto.csproj",
+      "projectPath": "A:\\7mo Semestre\\Programación Web\\U4ActividadesRobertoHerrera\\U4Actividad1Roberto\\U4Actividad1Roberto\\U4Actividad1Roberto.csproj",
       "packagesPath": "C:\\Users\\robca\\.nuget\\packages\\",
-      "outputPath": "A:\\7mo Semestre\\Programación Web\\U4Actividad1Roberto\\U4Actividad1Roberto\\obj\\",
+      "outputPath": "A:\\7mo Semestre\\Programación Web\\U4ActividadesRobertoHerrera\\U4Actividad1Roberto\\U4Actividad1Roberto\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

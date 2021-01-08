@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "A:\\7mo Semestre\\Programación Web\\U4Actividad2Roberto\\U4Actividad2Roberto\\U4Actividad2Roberto.csproj": {}
+    "A:\\7mo Semestre\\Programación Web\\U4ActividadesRobertoHerrera\\U4Actividad2Roberto\\U4Actividad2Roberto\\U4Actividad2Roberto.csproj": {}
   },
   "projects": {
-    "A:\\7mo Semestre\\Programación Web\\U4Actividad2Roberto\\U4Actividad2Roberto\\U4Actividad2Roberto.csproj": {
+    "A:\\7mo Semestre\\Programación Web\\U4ActividadesRobertoHerrera\\U4Actividad2Roberto\\U4Actividad2Roberto\\U4Actividad2Roberto.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "A:\\7mo Semestre\\Programación Web\\U4Actividad2Roberto\\U4Actividad2Roberto\\U4Actividad2Roberto.csproj",
+        "projectUniqueName": "A:\\7mo Semestre\\Programación Web\\U4ActividadesRobertoHerrera\\U4Actividad2Roberto\\U4Actividad2Roberto\\U4Actividad2Roberto.csproj",
         "projectName": "U4Actividad2Roberto",
-        "projectPath": "A:\\7mo Semestre\\Programación Web\\U4Actividad2Roberto\\U4Actividad2Roberto\\U4Actividad2Roberto.csproj",
+        "projectPath": "A:\\7mo Semestre\\Programación Web\\U4ActividadesRobertoHerrera\\U4Actividad2Roberto\\U4Actividad2Roberto\\U4Actividad2Roberto.csproj",
         "packagesPath": "C:\\Users\\robca\\.nuget\\packages\\",
-        "outputPath": "A:\\7mo Semestre\\Programación Web\\U4Actividad2Roberto\\U4Actividad2Roberto\\obj\\",
+        "outputPath": "A:\\7mo Semestre\\Programación Web\\U4ActividadesRobertoHerrera\\U4Actividad2Roberto\\U4Actividad2Roberto\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
